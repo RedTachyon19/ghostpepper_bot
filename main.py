@@ -6,10 +6,10 @@ import os
 
 bot = commands.Bot(command_prefix= "/")
 
-ghostpepper_TOKEN = 'OTAxMzEwMzQ5Njg3NTQxODIw.YXOArA.j6kEbCWC2x6KUstmjzpZtnSl6Ow'
+#must add discord bot token
+ghostpepper_TOKEN = 'token'
 
 # Roast command type '/roast to get roasted'
-#my_secret = os.environ['ghostpepper_TOKEN']
 
 roast_list = ['you suck', 'shut up dumbass', 'you like someone photoshopped a monkey face onto a horse', 'I care more about dead snails than I do about you', 'you are so ugly you turned medusa into stone.']
 
