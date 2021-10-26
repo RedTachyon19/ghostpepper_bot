@@ -18,6 +18,12 @@ roast_list = ['you suck', 'shut up dumbass', 'you like someone photoshopped a mo
 async def roast(ctx):
   await ctx.send(random.choice(roast_list))
 
+#spam command type /spam along with the number of times you want it to spam and then the message.
+@bot.command()
+async def spam(ctx, n, text):
+  for i in range (int(n)):
+    await ctx.send(text)
+    
 # execute bot
 bot.run(ghostpepper_TOKEN)
 
