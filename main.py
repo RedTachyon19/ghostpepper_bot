@@ -6,10 +6,8 @@ from discord import guild
 from discord_slash import SlashCommand, SlashContext
 from discord_slash.utils.manage_commands import create_choice, create_option
 
-import os
 import random
 import datetime
-import keep_alive
 
 
 bot = commands.Bot(command_prefix= "!g ")
@@ -217,6 +215,5 @@ async def coinflip(ctx:SlashContext):
     await ctx.send('🪙 Tails!')
     
 # execute bot
-keep_alive.keep_alive()
-ghostpepper_TOKEN = os.environ['ghostpepper_TOKEN']
+ghostpepper_TOKEN = "TOKEN"
 bot.run(ghostpepper_TOKEN)
