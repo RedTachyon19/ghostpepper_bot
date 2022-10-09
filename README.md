@@ -1,5 +1,3 @@
 # ghostpepper_bot
-This is the code for the ghost pepper bot. Version control is done here on GitHub, however the bot is run on Replit.
-The ghostpepper bot currently is only capable of roasting users when they type the command '/roast'
-Some limitations currently that I need to address is connecting this bot to a google drive API so that roast are stored in on a google sheet.
-I also need to address the fact that the code stops running every hour if inactive.
+This is the code for the ghost pepper bot. Version control is done here on GitHub, and the bot is run on Replit.
+There are a variety of commands that the bot can do such as roasting, giving users pick uplines, 8 ball responses, coinflips, and some fun easter eggs that are found when certain key words are sent.
