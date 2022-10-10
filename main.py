@@ -8,7 +8,7 @@ from discord_slash.utils.manage_commands import create_choice, create_option
 
 import random
 import datetime
-
+import os
 
 bot = commands.Bot(command_prefix= "!g ")
 slash = SlashCommand(bot, sync_commands = True)
@@ -215,5 +215,6 @@ async def coinflip(ctx:SlashContext):
     await ctx.send('🪙 Tails!')
     
 # execute bot
-ghostpepper_TOKEN = "TOKEN"
+keep_alive.keep_alive()
+ghostpepper_TOKEN = os.environ['ghostpepper_TOKEN']
 bot.run(ghostpepper_TOKEN)
