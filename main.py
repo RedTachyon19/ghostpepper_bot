@@ -9,6 +9,7 @@ from discord_slash.utils.manage_commands import create_choice, create_option
 import random
 import datetime
 import os
+import keep_alive
 
 bot = commands.Bot(command_prefix= "!g ")
 slash = SlashCommand(bot, sync_commands = True)
