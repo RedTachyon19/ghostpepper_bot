@@ -16,19 +16,12 @@ slash = SlashCommand(bot, sync_commands = True)
 
 bot.remove_command('help')
 
-keywords = ['/message',]
 pandey_keywords = ['frustrat', 'Frustrat', 'FRUSTRAT']
 n_words = ['n-word']
-
 
 #message should not be scanned if sent by a bot
 @bot.event
 async def on_message(message):
-  
-  for word in keywords:
-    if word in message.content:
-      await message.delete()
-      break  
 
 ## fun little easter eggs below
   if message.author.id != 901310349687541820:
@@ -40,7 +33,6 @@ async def on_message(message):
       
     if ('nvincible' in message.content):
       await message.reply(file = discord.File(r'invincible_titlecard_2.jpg'))
-    
     
     ## Moderation N-word Detector
     for word in n_words:
