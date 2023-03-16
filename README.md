@@ -4,6 +4,10 @@ There are a variety of commands that the bot can do such as roasting, giving use
 
 https://discord.gg/VkF3z8WmEN
 
+## Future Updates
+- [ ] add command for conversation starters
+- [ ] add a command for a "Would You Rather", perhaps using buttons
+
 ### Additional Information
 I use the free version of replit and as a result programs close after an hour on inactivity. To keep this bot online all the time, I used uptimerobot which sends requests to the bot in 5 minute intervals to keep the bot online. If you use an IDE without this limitation, delete "keep_alive.py" and the function "keep_alive()" in "main.py" can be deleted.
 
