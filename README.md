@@ -8,7 +8,7 @@ https://discord.gg/VkF3z8WmEN
 - [ ] add command for conversation starters
 - [ ] add a command for a "Would You Rather", perhaps using buttons
 
-Requirements
+### Requirements
 * discord.py 2.2.3
 * discord-py-slash-command 4.2.1
 * Flask 2.3.2
